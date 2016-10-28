@@ -1,10 +1,8 @@
 # O'Reilly Kotlin Courses
 
-Source code for 
+Source code for O'Reilly Courses
 
-* Introduction to Kotlin
+* [Introduction to Kotlin](http://shop.oreilly.com/product/0636920052982.do#tab_02_2)
 * Advanced Kotlin
 
-
-For more information see {URL}
 

@@ -1,6 +1,5 @@
 package coroutines
 
-import kotlinx.coroutines.async
 import java.util.concurrent.CompletableFuture
 
 private fun startLongAsyncOperation(v: Int) =
@@ -10,7 +9,9 @@ private fun startLongAsyncOperation(v: Int) =
         }
 
 fun main(args: Array<String>) {
-    val future = async<String> {
+    // SEE README_FIRST.txt
+
+/*    val future = async<String> {
 
         (1..5).map {
             await(startLongAsyncOperation(it))
@@ -19,5 +20,5 @@ fun main(args: Array<String>) {
     }
     println("This before")
     println(future.get())
-    println("This after")
+    println("This after")*/
 }

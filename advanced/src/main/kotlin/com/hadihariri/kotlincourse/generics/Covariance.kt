@@ -1,6 +1,6 @@
 package com.hadihariri.kotlincourse.generics
 
-import com.hadihariri.kotlincourse.classes.Customer
+import com.hadihariri.kotlincourse.delegation.Customer
 
 /**
  * Created by hadihariri on 25/08/16.

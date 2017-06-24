@@ -1,6 +1,6 @@
 package coroutines
 
-import kotlinx.coroutines.asyncRx
+
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
@@ -26,11 +26,13 @@ fun main(args: Array<String>) {
 
     val github = retrofit.create(GitHub::class.java)
 
-    asyncRx<Unit> {
+    // SEE README_FIRST.txt
+
+    /*asyncRx<Unit> {
         for (org in listOf("Kotlin", "ReactiveX")) {
             val result = github.orgRepos(org).take(5).awaitSingle()
             val repos = result.joinToString()
             println("$org: $repos")
         }
-    }
+    }*/
 }

@@ -1,6 +1,5 @@
 package com.hadihariri.kotlincourse.generics
 
-import com.hadihariri.kotlincourse.classes.Customer
 import java.io.Serializable
 
 /**

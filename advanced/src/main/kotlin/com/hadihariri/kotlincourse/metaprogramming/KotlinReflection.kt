@@ -42,8 +42,5 @@ fun main(args: Array<String>) {
 
     val nameProperty = Transaction::class.members.find { it.name == "description" }
 
-    println(nameProperty?.get(trans))
-
-
     // println(transaction.description)
 }

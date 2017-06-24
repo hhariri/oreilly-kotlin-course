@@ -1,7 +1,5 @@
 package com.hadihariri.kotlincourse.delegation
 
-import com.hadihariri.kotlincourse.classes.Customer
-
 /**
  * Created by hadihariri on 25/08/16.
  */

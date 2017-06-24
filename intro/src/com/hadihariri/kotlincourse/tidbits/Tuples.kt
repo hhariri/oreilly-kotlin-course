@@ -1,6 +1,7 @@
 package com.hadihariri.kotlincourse.tidbits
 
-import com.hadihariri.kotlincourse.classes.CustomerKotlin
+import com.hadihariri.kotlincourse.interop.CustomerKotlin
+
 
 /**
  * Created by hadihariri on 24/08/16.

@@ -1,7 +1,5 @@
 package com.hadihariri.kotlincourse.interop;
 
-import com.hadihariri.kotlincourse.classes.CustomerKotlin;
-import com.hadihariri.kotlincourse.classes.Status;
 
 import java.io.IOException;
 
@@ -14,12 +12,12 @@ public class TalkingToKotlin {
     public void loadStats(CustomerKotlin customerKotlin) {
 
 
-  /*      try {
-   //         customerKotlin.loadStatistics("filename");
+        try {
+            customerKotlin.loadStatistics("filename");
         } catch (IOException e) {
             e.printStackTrace();
         }
-*/
+
     }
 
     public static void main(String[] args) {

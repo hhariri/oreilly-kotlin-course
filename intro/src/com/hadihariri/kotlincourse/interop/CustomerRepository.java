@@ -1,6 +1,5 @@
 package com.hadihariri.kotlincourse.interop;
 
-import com.hadihariri.kotlincourse.classes.CustomerJava;
 
 import java.util.List;
 

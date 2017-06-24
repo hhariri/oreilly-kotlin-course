@@ -1,7 +1,5 @@
 package com.hadihariri.kotlincourse.interop
 
-import com.hadihariri.kotlincourse.classes.CustomerJava
-
 /**
  * Created by hadihariri on 25/08/16.
  */

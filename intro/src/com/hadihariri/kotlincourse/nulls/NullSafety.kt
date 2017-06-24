@@ -1,6 +1,5 @@
 package com.hadihariri.kotlincourse.nulls
 
-import com.hadihariri.kotlincourse.classes.CustomerJava
 
 /**
  * Created by hadihariri on 24/08/16.

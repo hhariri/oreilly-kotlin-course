@@ -21,10 +21,6 @@ fun main(args: Array<String>) {
         println(a)
     }
 
-    for (a in 100..1) {
-        println(a)
-    }
-
     for (b in 100 downTo 1 step 5) {
 
     }
